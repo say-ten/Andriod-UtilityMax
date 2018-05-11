@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sit207.anthony.utilitymax.MainActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/utilitymax_text"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="50dp"
+        android:textStyle="normal|italic" />
+
+    <Button
+        android:id="@+id/shoppinglistBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:onClick="GoToShoppingList"
+        android:text="@string/shoppinglist_button" />
+
+    <Button
+        android:id="@+id/calculatorBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoppinglistBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="GoToCalculator"
+        android:text="@string/calculator_button" />
+
+    <Button
+        android:id="@+id/flashLightBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calculatorBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="GoToFlashlight"
+        android:text="@string/flashlight_button" />
+
+    <Button
+        android:id="@+id/pinballBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flashLightBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="GoToPinball"
+        android:text="@string/pinball_game_button" />
+
+    <Button
+        android:id="@+id/aboutBtn"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pinballBtn"
+        android:layout_alignStart="@+id/pinballBtn"
+        android:layout_below="@+id/pinballBtn"
+        android:layout_marginTop="25dp"
+        android:onClick="GoToAbout"
+        android:text="@string/about_button" />
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/aboutBtn"
+        android:layout_alignBottom="@+id/aboutBtn"
+        android:layout_alignEnd="@+id/pinballBtn"
+        android:layout_alignRight="@+id/pinballBtn"
+        android:onClick=""
+        android:text="@string/exit_button" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/aboutBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/aboutBtn"
+        android:onClick="GoToGoogle"
+        app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
+</RelativeLayout>

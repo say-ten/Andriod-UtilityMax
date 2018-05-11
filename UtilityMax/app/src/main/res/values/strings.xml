@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">UtilityMax</string>
+    <string name="amount_text">Amount:</string>
+    <string name="input_number_edittext">Input Number</string>
+    <string name="item_text">Item:</string>
+    <string name="input_product_edittext">Input Product</string>
+    <string name="enter_button">Enter</string>
+    <string name="clear_all_button">Clear All</string>
+    <string name="utilitymax_text">UtilityMax</string>
+    <string name="shoppinglist_button">ShoppingList</string>
+    <string name="calculator_button">Calculator</string>
+    <string name="flashlight_button">Flashlight</string>
+    <string name="pinball_game_button">Pinball Game</string>
+    <string name="about_button">About</string>
+    <string name="exit_button">Exit</string>
+    <string name="switch_on_off_switch">Switch On/Off</string>
+    <string name="clear_button">Clear</string>
+    <string name="multiply_button">Multiply *</string>
+    <string name="divide_button">Divide /</string>
+    <string name="subtract_button">Subtract -</string>
+    <string name="add_button">Add +</string>
+    <string name="result_value_textview">Result Value:</string>
+    <string name="input_number_hint">Input Number</string>
+    <string name="second_value_textview">Second Value:</string>
+    <string name="input_number_hint2">Input Number</string>
+    <string name="first_value_text">First Value:</string>
+    <string name="simple_calculator_text">Simple Calculator</string>
+
+    <string-array name="difficulty_array">
+        <item>Beginner</item>
+        <item>Advanced</item>
+        <item>Expert</item>
+    </string-array>
+
+</resources>
